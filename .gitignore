@@ -1,0 +1,23 @@
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+
+#----------------------------------------------------------------------------
+# MISC
+#----------------------------------------------------------------------------
+.*cache
+*.log
+cache/*
+backup
+_files
+log
+log/**/*
+.monitor
+Forwardfile
+
+/log/*.log
+/tmp
+
