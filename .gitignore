@@ -17,6 +17,9 @@ log
 log/**/*
 .monitor
 Forwardfile
+.babelrc
+package.json
+package-lock.json
 
 /log/*.log
 /tmp
