@@ -13,7 +13,7 @@
 		var player2Score = 0;
 
 		//win condition variable
-		const winningScore = 4;
+		const winningScore = 5;
 
 		//win screen variable
 		var showingWinScreen = false;
@@ -143,19 +143,19 @@
 		//net down center of screen.
 		function drawNet () {
 			for (var i = 0; i < canvas.height; i += 40) {
-				colorRect(canvas.width / 2 - 1, i, 2, 20, 'white');
+				colorRect(canvas.width / 2 - 1, i, 2, 20, 'black');
 			}
 		}
 
 		//drawing function
 		function drawEverything() {
 			
-		//next line creates purple canvas
-		colorRect(0, 0, canvas.width, canvas.height, 'purple');
+		//next line creates canvas
+		colorRect(0, 0, canvas.width, canvas.height, '#e3f2fd');
 
 
 			if (showingWinScreen) {
-				canvasContext.fillStyle = 'white';
+				canvasContext.fillStyle = 'black';
 
 				if (player1Score >= winningScore) {
 				canvasContext.fillText('User won!', 400, 100);
@@ -163,7 +163,7 @@
 				} else if (player2Score >= winningScore) {
 				canvasContext.fillText('CPU won!', 400, 100);
 			}			
-				canvasContext.fillText('Click to continue', 395, 500);
+				canvasContext.fillText('Click to continue', 390, 500);
 				return;
 			}
 			
@@ -171,13 +171,13 @@
 			drawNet();
 
 			//next line creates left user paddle
-			colorRect(0, paddle1Y, paddleWidth, paddleHeight, 'white');
+			colorRect(0, paddle1Y, paddleWidth, paddleHeight, 'black');
 			
 			//next line creates right user paddle
-			colorRect(canvas.width - paddleWidth, paddle2Y, paddleWidth, paddleHeight, 'white');
+			colorRect(canvas.width - paddleWidth, paddle2Y, paddleWidth, paddleHeight, 'black');
 
 			//next line creates ball
-			colorCircle(ballX, ballY, 10, 'white');
+			colorCircle(ballX, ballY, 10, 'black');
 
 			canvasContext.fillText(player1Score, 100, 100);
 			canvasContext.fillText(player2Score, canvas.width - 100, 100);
