@@ -20,6 +20,7 @@ Forwardfile
 .babelrc
 package.json
 package-lock.json
+.DS_Store
 
 /log/*.log
 /tmp
