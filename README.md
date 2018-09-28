@@ -3,9 +3,7 @@
 
 -----------------------
 
-_After a few weeks of studying, I decided to give this small project a go. Built with JavaScript on HTML canvas. _
-
-_Run the code in your browser of choice. Enjoy!_
+_After a few weeks of studying, I decided to give this small project a go. Built with JavaScript on HTML canvas._ 
 
 + HTML Canvas
 + JavaScript

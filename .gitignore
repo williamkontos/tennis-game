@@ -1,27 +1,3 @@
-# NODE
-.node_modules
-node_modules
-*/node_modules
-/node_modules/*
+node_modules/
 
-
-#----------------------------------------------------------------------------
-# MISC
-#----------------------------------------------------------------------------
-.*cache
-*.log
-cache/*
-backup
-_files
-log
-log/**/*
-.monitor
-Forwardfile
-.babelrc
-package.json
-package-lock.json
-.DS_Store
-
-/log/*.log
-/tmp
 
