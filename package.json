@@ -4,6 +4,7 @@
   "description": "Tennis game built from tutorial.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./src/tennis.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib"
   },
