@@ -4,12 +4,9 @@
   "description": "Tennis game built from tutorial.",
   "main": "index.js",
   "scripts": {
+    "start": "node tennis.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "William Kontos",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  }
+  "license": "ISC"
 }
