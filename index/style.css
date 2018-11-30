@@ -1,0 +1,28 @@
+body {
+  background: #757F9A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+canvas {
+  border-radius: 10px;
+  box-shadow: 4px 1px 80px rgb(66, 66, 66);
+}
+
+.canvas {
+  text-align: center;
+  margin-top: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+  canvas {
+    border-radius: 10px;
+    width: 100% !important;
+    box-shadow: 4px 1px 80px rgb(66, 66, 66);
+  }
+
+  .canvas {
+    margin-top: 11em;
+  }
+
+}
