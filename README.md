@@ -14,3 +14,5 @@ Tech and functionality...
 + Collision detection & response
 + Score keeping and display
 + Real-time mouse input
+
+![tennis-homepage](https://raw.githubusercontent.com/williamkontos/tennis-game/master/tennis-game.png)
