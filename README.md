@@ -1,9 +1,10 @@
-# **Tennis**
-##### Created by William Kontos
+# Tennis
 
 -----------------------
 
-_After a few weeks of studying, I decided to give this small project a go. Built with JavaScript on HTML canvas._ 
+_A pong clone I built a while back with vanilla JS._ 
+
+Tech and functionality... 
 
 + HTML Canvas
 + JavaScript
