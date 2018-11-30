@@ -4,7 +4,6 @@
   "description": "Tennis game.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/tennis.js",
     "build": "babel src -d lib"
   },
   "author": "William Kontos",
